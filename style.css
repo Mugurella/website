@@ -526,6 +526,64 @@ nav a:hover{
 
 }
 
+.about{
+
+    text-align:center;
+    padding:120px 20px;
+
+    overflow:hidden;
+}
+
+.about h2,
+.about .section-text,
+
+
+    position:relative;
+    z-index:2;
+
+}
+
+.about:before{
+
+    content:"";
+    position:absolute;
+    inset:0;
+
+    background:rgba(255,250,245,0.82);
+}
+
+.about h2{
+
+    font-size:52px;
+
+    color:#4a3b35;
+
+    margin-bottom:25px;
+
+}
+
+.flower{
+    color:#d4af37;
+    margin-right:12px;
+}
+
+.about-text{
+
+    color:#7f7067;
+
+    font-size:22px;
+
+    line-height:1.8;
+
+    margin-bottom:70px;
+
+}
+
+.about-page nav a{
+
+    color:white;
+
+}
 
 .about-page nav a{
 
